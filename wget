@@ -1,0 +1,2 @@
+//key download all site
+wget -r -k -l 10 -p -E -nc http://site.com/
