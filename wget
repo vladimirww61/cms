@@ -1,2 +1,7 @@
 //key download all site
 wget -r -k -l 10 -p -E -nc http://site.com/
+
+//regexp rename all after
+@itok=[^\s]*
+@itok= часть маски присутствующая везде
+[^\s]* = означает любые символы кроме пробела
