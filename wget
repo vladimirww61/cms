@@ -5,3 +5,9 @@ wget -r -k -l 10 -p -E -nc http://site.com/
 @itok=[^\s]*
 @itok= часть маски присутствующая везде
 [^\s]* = означает любые символы кроме пробела
+
+@itok=[^"]*
+@itok= часть маски присутствующая везде
+[^"]* = означает любые символы кроме кавычки
+
+https://www.exlab.net/files/tools/sheets/regexp/regexp.pdf
